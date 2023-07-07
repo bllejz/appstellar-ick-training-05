@@ -45,4 +45,4 @@ jobs:
 
       - name: Deploy Helm Chart
         run: |
-          helm upgrade webapp-arber ../helm/webapp --install
+          helm upgrade webapp-arber ../helm/webapp/ --install
